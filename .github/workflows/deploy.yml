@@ -1,5 +1,9 @@
 name: Deploy
 
+runs:
+  using: 'node16'
+  main: 'main.js' 
+
 on:
   push:
     branches:
@@ -48,9 +52,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-
-
-runs:
-  using: 'node16'
-  main: 'main.js'  
+          publish_dir: ./dist 
