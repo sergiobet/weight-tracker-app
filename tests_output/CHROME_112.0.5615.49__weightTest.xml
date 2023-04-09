@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="weightTest"
+    errors="0" failures="1" hostname="" id="" package="weightTest" skipped="0"
+    tests="1" time="10.15" timestamp="">
+  
+    <testcase name="checks if the component has been mounted" classname="weightTest" time="10.15" assertions="1">  <failure message="time out reached (10000ms) while waiting for component to mount.">Error</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

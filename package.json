@@ -1,0 +1,25 @@
+{
+  "name": "app-web-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.2.1",
+    "gh-pages": "^5.0.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "chromedriver": "^111.0.0",
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.6.19",
+    "vite": "^4.1.0",
+    "vite-plugin-nightwatch": "^0.4.2"
+  }
+}
